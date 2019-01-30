@@ -1,0 +1,14 @@
+{
+  "name": "testing-i",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/robsalzberg/testing-i.git",
+  "author": "Rob Salzberg <robsalzberg@gmail.com>",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.0.0"
+  }
+}
