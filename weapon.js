@@ -1,4 +1,5 @@
 const Sword = {
+    origName: "Sword",
     name: "Sword",
     type: "weapon",
     durability: 100,
@@ -6,6 +7,7 @@ const Sword = {
   };
   
   const Polearm = {
+    origName: "Polearm",  
     name: "Polearm",
     type: "weapon",
     durability: 100,
@@ -13,6 +15,7 @@ const Sword = {
   };
   
   const Warhammer = {
+    origName: "Warhammer",  
     name: "Warhammer",
     type: "weapon",
     durability: 100,
@@ -20,6 +23,7 @@ const Sword = {
   };
   
   const Wand = {
+    origName: "Wand",  
     name: "Wand",
     type: "weapon",
     durability: 100,
@@ -27,6 +31,7 @@ const Sword = {
   };
   
   const Sickle = {
+    origName: "Sickle",  
     name: "Sickle",
     type: "weapon",
     durability: 100,
@@ -34,13 +39,15 @@ const Sword = {
   };
   
   const Battle_Axe = {
-    name: "Battle_Axe",
+    origName: "Battle_Axe",
+    name: "[TRI] Battle_Axe",
     type: "weapon",
     durability: 100,
-    enhancement: 0
+    enhancement: 18
   };
   
   const Mace = {
+    origName: "Mace", 
     name: "Mace",
     type: "weapon",
     durability: 100,

@@ -1,4 +1,5 @@
 const Comb = {
+  origName: "Comb",
   name: "Comb",
   type: "armor",
   durability: 100,
@@ -6,6 +7,7 @@ const Comb = {
 };
 
 const Helm = {
+  origName: "Helm",
   name: "Helm",
   type: "armor",
   durability: 100,
@@ -13,6 +15,7 @@ const Helm = {
 };
 
 const Visor = {
+  origName: "Visor",
   name: "Visor",
   type: "armor",
   durability: 100,
@@ -20,6 +23,7 @@ const Visor = {
 };
 
 const Gorget = {
+  origName: "Gorget",
   name: "Gorget",
   type: "armor",
   durability: 100,
@@ -27,6 +31,7 @@ const Gorget = {
 };
 
 const Pauldron = {
+  origName: "Pauldron",
   name: "Pauldron",
   type: "armor",
   durability: 100,
@@ -34,6 +39,7 @@ const Pauldron = {
 };
 
 const Breastplate = {
+  origName: "Breastplate",
   name: "Breastplate",
   type: "armor",
   durability: 100,
@@ -41,13 +47,15 @@ const Breastplate = {
 };
 
 const Plackart = {
-  name: "Plackart",
+  origName: "Plackart",
+  name: "[DUO] Plackart",
   type: "armor",
   durability: 100,
-  enhancement: 0
+  enhancement: 17
 };
 
 const Fauld = {
+  origName: "Fauld",
   name: "Fauld",
   type: "armor",
   durability: 100,
@@ -55,6 +63,7 @@ const Fauld = {
 };
 
 const Rerebrace = {
+  origName: "Rerebrace",
   name: "Rerebrace",
   type: "armor",
   durability: 100,
@@ -62,6 +71,7 @@ const Rerebrace = {
 };
 
 const Couter = {
+  origName: "Couter",
   name: "Couter",
   type: "armor",
   durability: 100,
@@ -69,6 +79,7 @@ const Couter = {
 };
 
 const Vambrace = {
+  origName: "Vambrace",
   name: "Vambrace",
   type: "armor",
   durability: 100,
@@ -76,6 +87,7 @@ const Vambrace = {
 };
 
 const Gauntlet = {
+  origName: "Gauntlet",
   name: "Gauntlet",
   type: "armor",
   durability: 100,
@@ -83,6 +95,7 @@ const Gauntlet = {
 };
 
 const Cuisse = {
+  origName: "Cuisse",
   name: "Cuisse",
   type: "armor",
   durability: 100,
@@ -90,6 +103,7 @@ const Cuisse = {
 };
 
 const Poleyn = {
+  origName: "Poleyn",
   name: "Poleyn",
   type: "armor",
   durability: 100,
@@ -97,6 +111,7 @@ const Poleyn = {
 };
 
 const Fan_plates = {
+  origName: "Fan_Plates",
   name: "Fan_plates",
   type: "armor",
   durability: 100,
@@ -104,6 +119,7 @@ const Fan_plates = {
 };
 
 const Greave = {
+  origName: "Greave",
   name: "Greave",
   type: "armor",
   durability: 100,
@@ -111,6 +127,7 @@ const Greave = {
 };
 
 const Sabaton = {
+  origName: "Sabaton",
   name: "Sabaton",
   type: "armor",
   durability: 100,
@@ -118,6 +135,7 @@ const Sabaton = {
 };
 
 const Chain_Mail = {
+  origName: "Chain_Mail",
   name: "Chain_Mail",
   type: "armor",
   durability: 100,
@@ -142,6 +160,5 @@ module.exports = {
   Fan_plates,
   Greave,
   Sabaton,
-  Chain_Mail  
+  Chain_Mail
 };
-
